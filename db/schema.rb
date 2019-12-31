@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "artists", force: :cascade do |t|
@@ -25,5 +26,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "artist_id"
     t.integer "genre_id"
   end
+=======
+ActiveRecord::Schema.define(version: 4) do
+>>>>>>> 52bcfa5ad3073e205cb1e6af60821bda256a545f
 
 end
